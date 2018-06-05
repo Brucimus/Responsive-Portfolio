@@ -176,3 +176,38 @@ td:hover {
 .formButtonInput:hover {
     background-color: yellow;
 }
+
+
+@media screen and (max-width: 980px) {
+    .headerMenu {
+        width: 90%;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerMenu {
+        width: 90%;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 60px;
+        width: 90%;
+    }
+    menu {
+        width: 100%;
+        background-color: #ffffff;
+    }
+}
