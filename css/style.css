@@ -119,18 +119,21 @@ footer {
 }
 
 /* Portfolio Grid */
-.portfolioGrid {
-    position: relative;
-    left: 17%;
-    margin-bottom: 100px;
+.portfolio-container {
+    height: 900px;
+    margin-bottom: 70px;
 }
-td {
-    margin: 2px;
+
+.portfolio-image {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     position: relative;
 }
 
-td:hover {
+.portfolio-image:hover {
+    clear: both;
     background-color: yellow;
 }
 
@@ -177,7 +180,7 @@ td:hover {
     background-color: yellow;
 }
 
-
+/*Media Queries for screen size differences*/
 @media screen and (max-width: 980px) {
     .headerMenu {
         width: 90%;
