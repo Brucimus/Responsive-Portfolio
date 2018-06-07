@@ -132,10 +132,10 @@ footer {
     position: relative;
 }
 
-.portfolio-image:hover {
+/* .portfolio-image:hover {
     clear: both;
     background-color: yellow;
-}
+} */
 
 /* Titles for Images in Grid */
 .picBanner {
@@ -198,6 +198,11 @@ footer {
     .container {
         width: 90%;
     }
+
+    .portfolio-container {
+        height: 1500px;
+        margin-bottom: 70px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -209,8 +214,14 @@ footer {
         margin-top: 60px;
         width: 90%;
     }
+
     menu {
         width: 100%;
         background-color: #ffffff;
+    }
+
+    .portfolio-container {
+        height: 2000px;
+        margin-bottom: 70px;
     }
 }
