@@ -207,7 +207,8 @@ footer {
 
 @media screen and (max-width: 640px) {
     h1 {
-        width: 100%;
+        width: 109%;
+        margin-left: -31px;
     }
 
     .container {
@@ -216,8 +217,9 @@ footer {
     }
 
     menu {
-        width: 100%;
+        width: 107%;
         background-color: #ffffff;
+        margin-right: -31px;
     }
 
     .portfolio-container {
